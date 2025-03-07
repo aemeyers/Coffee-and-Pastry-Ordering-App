@@ -1,0 +1,16 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,700;1,400&family=Playfair+Display:wght@500&family=Cormorant+Garamond:wght@300&display=swap');
+body {
+  font-family: 'EB Garamond', serif;
+  color: #473F3B;
+  background-color: #ffffff;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', serif;
+  color: #473F3B;
+}
+.font-light {
+  font-family: 'Cormorant Garamond', serif;
+}
