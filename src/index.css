@@ -1,0 +1,41 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,700;1,400&family=Playfair+Display:wght@500&family=Cormorant+Garamond:wght@300&display=swap');
+/* Reset box sizing */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+/* Remove default margin and ensure full height */
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'EB Garamond', serif;
+  color: #473F3B;
+  background-color: #ffffff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', serif;
+  color: #473F3B;
+}
+.font-light {
+  font-family: 'Cormorant Garamond', serif;
+}
+/* Prevent content jump when scrollbar appears/disappears */
+html {
+  scrollbar-gutter: stable;
+}
+/* Hide scrollbar for Chrome, Safari and Opera */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+/* Hide scrollbar for IE, Edge and Firefox */
+.scrollbar-hide {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
