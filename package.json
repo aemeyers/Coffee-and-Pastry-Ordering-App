@@ -15,7 +15,6 @@
     "lucide-react": "latest",
     "react-leaflet": "latest",
     "leaflet": "latest",
-    "leaflet/dist/leaflet.css": "latest",
     "react-router-dom": "latest"
   },
   "devDependencies": {
