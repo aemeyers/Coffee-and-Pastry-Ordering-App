@@ -6,7 +6,7 @@ import { ProductDetail } from "./pages/ProductDetail";
 import { Cart } from "./pages/Cart";
 import { Checkout } from "./pages/Checkout";
 import { OrderConfirmation } from "./pages/OrderConfirmation";
-import { Profile } from "./pages/Profile";
+import { Locations } from "./pages/Locations";
 import { Header } from "./components/Header";
 import { BottomNavigation } from "./components/BottomNavigation";
 function AppContent() {
@@ -47,8 +47,7 @@ function AppContent() {
             navigate("/");
             setCart([]);
           }} />} />
-            <Route path="/locations" element={<Profile />} />
-            <Route path="/profile" element={<Profile />} />
+            <Route path="/locations" element={<Locations />} />
           </Routes>
         </div>
       </main>
